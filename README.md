@@ -91,7 +91,7 @@ When the robot is at the warehouse, it moves to the checkpoint. From the checkpo
 ---
 
 ## Transition Probability
-## Transition Probability
+
 
 If the delivery robot is at the **Warehouse** and chooses **Move Forward**, it reaches the **Checkpoint** with probability 1.0.
 
@@ -126,9 +126,9 @@ R(s,a,s')
 
 ```
 
-+100 – Package successfully deliver pannina.
--1 – Robot move forward pannumbodhu.
--5 – Thevai illama wait pannumbodhu.
++100 – Package successfully delivered.
+-1 – Robot move forward.
+-5 – waiting unnecessarily.
 
 
 ```
